@@ -1,0 +1,20 @@
+Projeto no Azure:
+
+Utilizando a Azure Machine Learning Studio fazer o upload dos dados da MovieLens 1M Dataset
+
+Criar um experiemento no Azure Machine Learning para criar e treinar o modelo de recomendção (que vai ser o que o meu código vai acessar)
+E então seguir os passos:
+    -Carregar o conjunto de dados
+    -Pré-processar os dados selcionando as colunas "UserID","MovieID" e "Rating" --> as colunas relevantes
+    -Dividir o conjunto de dados em conjuntos de treinamentos e teste
+    -Treinar o modelo de recomendação
+    -Avaliar o desempenho
+
+Depois de treinar implementá-lo na Azure Machine Learning
+
+Gerar uma URL com a opção "Predictive Web Services" --> crio uma maneira de acessar remotamente o meu sistema de recomendção
+    ^Certificar que a url está configurada pra aceitar solicitações no formato de JSON --> pq é assim que formatei o código
+
+Não configurei o código para exceções, e nem tratei erros porque não tive acesso ao azure, então não pude testar meu código :(
+
+DUUURO
